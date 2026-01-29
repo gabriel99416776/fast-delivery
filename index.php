@@ -43,7 +43,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-center item-nav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-center item-nav" style="cursor: pointer;">
 
                     <li class="nav-item">
                         <a class="nav-link" data-page="home">HOME</a>
@@ -59,12 +59,12 @@
                             CONFIGURAÇÕES
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" data-page="mesas">MESAS</a></li>
-                            <li><a class="dropdown-item" data-page="horario">HORÁRIO DE FUNCIONAMENTO</a></li>
+                            <li><a class="dropdown-item" data-page="mesas">Mesas</a></li>
+                            <li><a class="dropdown-item" data-page="horario">Horário de Funcionamento</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" data-page="empresa">DADOS DA EMPRESA</a></li>
+                            <li><a class="dropdown-item" data-page="empresa">Dados da Empresa</a></li>
                         </ul>
                     </li>
 
