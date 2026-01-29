@@ -14,6 +14,9 @@
         padding: 0;
         box-sizing: border-box;
     }
+    body{
+        background-color: #F3F3F3;
+    }
 
     .borda-nav {
 
@@ -38,12 +41,12 @@
     <div class="borda-nav"></div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-center item-nav" style="cursor: pointer;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-center item-nav">
 
                     <li class="nav-item">
                         <a class="nav-link" data-page="home">HOME</a>
@@ -59,12 +62,12 @@
                             CONFIGURAÇÕES
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" data-page="mesas">Mesas</a></li>
-                            <li><a class="dropdown-item" data-page="horario">Horário de Funcionamento</a></li>
+                            <li><a class="dropdown-item" data-page="mesas">MESAS</a></li>
+                            <li><a class="dropdown-item" data-page="horario">HORÁRIO DE FUNCIONAMENTO</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" data-page="empresa">Dados da Empresa</a></li>
+                            <li><a class="dropdown-item" data-page="empresa">DADOS DA EMPRESA</a></li>
                         </ul>
                     </li>
 
@@ -76,6 +79,8 @@
             </div>
         </div>
     </nav>
+
+
 
     <main id="conteudo" class="container mt-4"></main>
 
